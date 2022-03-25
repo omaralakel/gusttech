@@ -18,14 +18,12 @@ class _TwoButtonsState extends State<TwoButtons> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // backgroundColor: Colors.grey[50],
       body: Column(
         children: const [
           SizedBox(height: 150,),
           FirstButton(),
           SizedBox(height: 80,),
           SecondButton(),
-          
         ],
       ),
     );
