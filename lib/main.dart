@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: AppTheme().light,
       darkTheme: AppTheme().dark,
-      themeMode: ThemeMode.light,
+      themeMode: ThemeMode.dark,
       title: 'Chatter',
       builder: (context, child) {
         return StreamChatCore(
@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
           child: child!
           );
       },
-      home: SignUpClient(),
+      home: HomeScreen(),
     );
   }
 }

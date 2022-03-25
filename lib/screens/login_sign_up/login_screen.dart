@@ -58,13 +58,10 @@ class Body extends StatelessWidget {
               "or continue with social media",
               style: TextStyle(),
             ),
-            // SizedBox(height: size.height * 0.03),
-            Container(child: Image.asset("../../../assets/images/morshed.jpg", fit: BoxFit.fill,), ),
-            // SvgPicture.asset(
-            //   "assets/icons/login.svg",
-            //   height: size.height * 0.35,
-            // ),
-            // SizedBox(height: size.height * 0.003),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 72, vertical: 70),
+              child: Image.asset("assets/images/morsheds.png", fit: BoxFit.fill,),
+            ),
             RoundedInputField(
               hintText: "Your Email",
               onChanged: (value) {},

@@ -2,6 +2,7 @@ import 'dart:html';
 
 import 'package:flutter/material.dart';
 import 'package:stream_chat_flutter_core/stream_chat_flutter_core.dart';
+import 'package:win/theme.dart';
 // import 'package:flutter_auth/components/text_field_container.dart';
 // import 'package:flutter_auth/constants.dart';
 
@@ -25,11 +26,11 @@ class RoundedInputField extends StatelessWidget {
                 } else{return null;}
               },
         onChanged: onChanged,
-        cursorColor: Color(0xFF6F35A5),
+        cursorColor: AppColors.secondary,
         decoration: InputDecoration(
           icon: Icon(
             icon,
-            color: Color(0xFF6F35A5)
+            color: AppColors.secondary
           ),
           hintText: hintText,
           border: InputBorder.none,

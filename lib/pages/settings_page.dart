@@ -77,7 +77,7 @@ class ProfileMenu extends StatelessWidget {
         style: 
           TextButton.styleFrom(
             padding: const EdgeInsets.all(20),
-            backgroundColor: const Color(0xFFF5F6F9),
+            backgroundColor: Theme.of(context).cardColor,
             shadowColor: Colors.transparent,
             shape: (
           RoundedRectangleBorder(
@@ -136,7 +136,7 @@ class ProfileMenu1 extends StatelessWidget {
         style: 
           TextButton.styleFrom(
             padding: const EdgeInsets.all(20),
-            backgroundColor: const Color(0xFFF5F6F9),
+            backgroundColor: Theme.of(context).cardColor,
             shadowColor: Colors.transparent,
             shape: (
           RoundedRectangleBorder(
@@ -186,7 +186,7 @@ class ProfileMenu2 extends StatelessWidget {
         style: 
           TextButton.styleFrom(
             padding: const EdgeInsets.all(20),
-            backgroundColor: const Color(0xFFF5F6F9),
+            backgroundColor: Theme.of(context).cardColor,
             shadowColor: Colors.transparent,
             shape: (
           RoundedRectangleBorder(

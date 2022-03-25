@@ -43,13 +43,17 @@ class Body extends StatelessWidget {
               "WELCOME TO MORSHED",
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20,),
             ),
-            Image.asset("../../../assets/images/morshed.jpg", fit: BoxFit.fill,),
-            SizedBox(height: size.height * 0.05),
+            const SizedBox(height: 32),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 72, vertical: 70),
+              child: Image.asset("assets/images/morsheds.png", fit: BoxFit.fill,),
+            ),
+            const SizedBox(height: 32),
             // SvgPicture.asset(
             //   "assets/icons/chat.svg",
             //   height: size.height * 0.45,
             // ),
-            SizedBox(height: size.height * 0.05),
+            const SizedBox(height: 16),
             RoundedButton(
               text: "LOGIN",
               press3: () { Navigator.of(context).push(MaterialPageRoute(builder: (context) {return LoginScreen(); }));

@@ -27,16 +27,16 @@ class _HomeScreenState extends State<HomeScreen> {
   final pages = [
     HomePage(),
     MessagesPage(),
-    EmployeesPage(),
+    // EmployeesPage(),
     SettingsPage(),
   ];
 
 
   final pageTitles = const [
-    "HomePage",
-    "MessagesPage",
-    "EmployeesPage",
-    "SettingsPage",
+    "Home",
+    "Messages",
+    // "Employees",
+    "Settings",
   ];
 
     void _onNavigationItemSelected(index) {
@@ -136,8 +136,8 @@ class _BottomNavigationBarState extends State<_BottomNavigationBar> {
                 children: [
                 NavigationBarItem(lable: "Home", icon: Icons.home, index: 0, onTap: handleItemSelected, isSelected: (selectedIndex == 0),),
                 NavigationBarItem(lable: "messages", icon: CupertinoIcons.bubble_left_bubble_right_fill, index: 1, onTap: handleItemSelected, isSelected: (selectedIndex == 1),),
-                NavigationBarItem(lable: "Workers", icon: Icons.person, index: 2, onTap: handleItemSelected, isSelected: (selectedIndex == 2),),
-                NavigationBarItem(lable: "settings", icon: Icons.settings, index: 3, onTap: handleItemSelected, isSelected: (selectedIndex == 3),),
+                // NavigationBarItem(lable: "Employees", icon: Icons.person, index: 2, onTap: handleItemSelected, isSelected: (selectedIndex == 2),),
+                NavigationBarItem(lable: "settings", icon: Icons.settings, index: 2, onTap: handleItemSelected, isSelected: (selectedIndex == 2),),
               ],
           ),
             ),

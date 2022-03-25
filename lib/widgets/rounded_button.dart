@@ -1,6 +1,7 @@
 // import 'dart:html';
 
 import 'package:flutter/material.dart';
+import 'package:win/theme.dart';
 // import 'package:flutter_auth/constants.dart';
 
 class RoundedButton extends StatelessWidget {
@@ -11,7 +12,7 @@ class RoundedButton extends StatelessWidget {
   const RoundedButton({
     required this.text,
     required this.press3,
-    this.color = const Color(0xFF6F35A5),
+    this.color = AppColors.secondary,
     this.textColor = Colors.white, required this.press,
   });
 

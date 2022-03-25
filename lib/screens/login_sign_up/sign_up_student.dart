@@ -5,6 +5,7 @@ import '../../widgets/already_have_an_account_acheck.dart';
 import '../../widgets/rounded_button.dart';
 import '../../widgets/rounded_input_field.dart';
 import '../../widgets/rounded_password_field.dart';
+import "../../theme.dart";
 import 'login_screen.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -176,7 +177,7 @@ class OrDivider extends StatelessWidget {
             child: Text(
               "OR",
               style: TextStyle(
-                color: Color(0xFF6F35A5),
+                color: AppColors.secondary,
                 fontWeight: FontWeight.w600,
               ),
             ),
@@ -536,6 +537,7 @@ class _ImagePickerState extends State<ImagePicker> {
       // margin: EdgeInsets.symmetric(horizontal: 20),
       child: ElevatedButton(child: Text("Select your profile image",),
       onPressed: () {},
+      
       ),
     );
   }
