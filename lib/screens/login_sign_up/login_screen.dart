@@ -4,6 +4,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:win/screens/login_sign_up/two_buttons.dart';
 import 'package:win/screens/login_sign_up/welcome_screen.dart';
 
+import '../../pages/messages_page.dart';
 import '../../widgets/already_have_an_account_acheck.dart';
 import '../../widgets/rounded_button.dart';
 import '../../widgets/rounded_input_field.dart';
@@ -71,7 +72,7 @@ class Body extends StatelessWidget {
             ),
             RoundedButton(
               text: "Sign in",
-              press3: () {}, press: () {  },
+              press3: () {}, press: () { Navigator.of(context).push(MaterialPageRoute(builder: ((context) => MessagesPage())));},
             ),
             SizedBox(height: size.height * 0.03),
             AlreadyHaveAnAccountCheck(

@@ -44,6 +44,7 @@ dependencies:
   line_awesome_icons: ^1.0.4+2
   modal_bottom_sheet: ^2.0.1
   searchfield: ^0.6.2
+  square_in_app_payments: ^1.7.3
   # image_picker: ^0.8.4+11
   # image_picker_for_web: ^2.1.6
 

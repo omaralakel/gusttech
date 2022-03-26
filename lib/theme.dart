@@ -65,6 +65,8 @@ class AppTheme {
           headline6: TextStyle(color: AppColors.textDark),
         ),
         iconTheme: const IconThemeData(color: AppColors.iconDark),
+        dividerColor: Colors.white,
+        unselectedWidgetColor: Colors.grey,
       );
 
   /// Dark theme and its settings.
@@ -95,5 +97,7 @@ class AppTheme {
           headline6: TextStyle(color: AppColors.textLigth),
         ),
         iconTheme: const IconThemeData(color: AppColors.iconLight),
+        dividerColor: Colors.black,
+        unselectedWidgetColor: Colors.grey,
       );
 }
